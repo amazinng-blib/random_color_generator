@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: red;
+}
+
+.wrapper {
+  height: 100vh;
+}
+
+.container {
+  width: 100vw;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 2rem;
+  padding: 20px auto;
+}
+
+.container button {
+  color: green;
+  padding: 10px 20px;
+  height: max-content;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 1.1rem;
+}
+
+.display-color {
+  text-align: center;
+  /* margin: 26px auto; */
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+
+.display-color p {
+  background-color: white;
+  width: max-content;
+  padding: 1rem 2rem;
+  margin: auto;
+}
